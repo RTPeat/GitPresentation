@@ -14,10 +14,10 @@
 
 ## Outline
 
-@ol
+@ul
 - A quick overview of Git
 - A demo of Git
 - A chance to experiment with Git in the Scratch environment
-@olend
+@ulend
 
 
