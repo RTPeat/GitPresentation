@@ -1,7 +1,7 @@
 # Introduction to Git
 
 ---
-@snap[midpoint]
+
 ## Why Are We Here?
 
 @ul
@@ -10,7 +10,6 @@
 - Git and TFSVC are different which can cause confusion
 - Damien has offered to buy a Dishoom breakfast for anyone who attends
 @ulend
-@snapend
 
 ---
 
@@ -122,7 +121,7 @@
 @ulend
 
 ---
-@snap[midpoint]
+
 ## Git vs TFS
 
 |TFS Version Control|Git|
@@ -137,7 +136,6 @@
 |Code Review|“pull request”|
 |Shelveset|Stash|
 |Label|Tag|
-@snapend
 
 ---
 
