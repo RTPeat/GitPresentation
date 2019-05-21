@@ -25,9 +25,25 @@
 ## Git
 
 @ul
-- The underlying concept of Git is beautifully simple, based around the commit, each commit describing the changes from the previous commit.
+- The underlying concept of Git is beautifully simple, based around the commit. 
+- Each commit describing the changes from the previous commit.
 - Whilst simple, this concept is also tremendously powerful.
-
-![Branch](assets/gitflow.png)
 @ulend
 
+---
+
+![Branch](assets/gitflow.png)
+
+---
+
+# But...
+
+---
+
+![GreatPower](assets/greatpower.jpg)
+
+---
+
+![Spaghetti](assets/branchspaghetti.gif)
+
+---
