@@ -1,7 +1,7 @@
 # Introduction to Git
 
 ---
-
+@snap[midpoint]
 ## Why Are We Here?
 
 @ul
@@ -10,6 +10,7 @@
 - Git and TFSVC are different which can cause confusion
 - Damien has offered to buy a Dishoom breakfast for anyone who attends
 @ulend
+@snapend
 
 ---
 
@@ -56,9 +57,9 @@
 - It had to be:
     - Fast
     - Simple Design
-    - Strong support for non-linear development (thousands of parallel branches)
+    - Strong support for non-linear development
     - Fully distributed
-    - Able to handle large projects like the Linux kernel efficiently in both speed and size
+    - Able to handle large projects efficiently
 @ulend
 
 ---
@@ -121,7 +122,7 @@
 @ulend
 
 ---
-
+@snap[midpoint]
 ## Git vs TFS
 
 |TFS Version Control|Git|
@@ -136,7 +137,7 @@
 |Code Review|“pull request”|
 |Shelveset|Stash|
 |Label|Tag|
-
+@snapend
 
 ---
 
