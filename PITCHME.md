@@ -45,6 +45,10 @@
 
 ---
 
+# Defenestrate Regularly
+
+---
+
 ![Spaghetti](assets/branchspaghetti.gif)
 
 ---
@@ -152,7 +156,7 @@ You don't have to use the command line (although some of the power is only avail
 
 @ul
 - Modern Visual Studio has Git support built in
-- Free clients like Tortoise Git, Git for Windows, Atlassian SourceTree
+- Free clients like Atlassian SourceTree, Tortoise Git, Git for Windows
 - Paid for clients like Git Kraken, Smart Git or Tower
 @ulend
 
