@@ -106,7 +106,7 @@
 
 @ul
 - Everything in Git is check-summed before it is stored
-- Internally everything is reffered to by that checksum, not a filename 
+- Internally everything is referred to by that checksum, not a filename 
 - You can't lose information in transit or have a file corrupt without Git knowing about it
 @ulend
 
@@ -126,11 +126,18 @@
 
 |TFS Version Control|Git|
 |---|---|
-|Workspace|Repository (aka. “Repo”)|
+|Workspace|Repository / Repo|
 |Get Latest  (First time)|Clone|
-|Get Latest (After first time)|Pull|
+|Get Latest|Pull|
 |Check in|Commit + Push|
 |Check out|(just start typing)|
+
+---
+
+## Git vs TFS
+
+|TFS Version Control|Git|
+|---|---|
 |Branch|Branch|
 |Merge|Merge|
 |Code Review|“pull request”|
