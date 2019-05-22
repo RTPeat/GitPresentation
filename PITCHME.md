@@ -139,7 +139,7 @@
 |TFS Version Control|Git|
 |---|---|
 |Branch|Branch|
-|Merge|Merge|
+|Merge|Merge (or Rebase instead)|
 |Code Review|“pull request”|
 |Shelveset|Stash|
 |Label|Tag|
