@@ -169,6 +169,6 @@ Lots of Git resources and support around:
 @ul
 - Pro Git - Whole book is available for free online at [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)
 - Several Pluralsight courses can teach you the basics, or take a deep dive into how Git works
-- Git is used extensively so lots of help on the internet
+- Atlassian Git Cheat Sheet [https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 - Cheat sheet for TFS users switching to Git [https://www.benday.com/2015/11/24/git-cheat-sheet-for-tfs-users/](https://www.benday.com/2015/11/24/git-cheat-sheet-for-tfs-users/)
 @ulend
