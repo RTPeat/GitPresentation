@@ -191,7 +191,8 @@ First download and install git from:
 Then from a command line or Powershell run the following exactly - *do not substitute [user] with your username*:
 
 ```powershell
-git config --global http.proxy http://[user]@cseproxy.emea.cshare.net:8080
+git config --global 
+    http.proxy http://[user]@cseproxy.emea.cshare.net:8080
 git config --global credential.helper wincred
 git config --global http.proxyAuthMethod ntlm
 ```
@@ -203,7 +204,8 @@ git config --global http.proxyAuthMethod ntlm
 Clone the demo repository and create your branch:
 
 ```powershell
-git clone https://CTS-GD@dev.azure.com/CTS-GD/Scratch/_git/gitdemo
+git clone 
+    https://CTS-GD@dev.azure.com/CTS-GD/Scratch/_git/gitdemo
 git branch checkout -b <branch>
 ```
 
