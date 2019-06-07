@@ -184,23 +184,28 @@ First download and install git from:
 
 [https://gitforwindows.org/](https://gitforwindows.org/)
 
+---
+
+## Try it Yourself
+
 Then from a command line or Powershell run the following exactly - *do not substitute [user] with your username*:
 
-`git config --global http.proxy http://[user]@cseproxy.emea.cshare.net:8080`
-`git config --global credential.helper wincred`
-`git config --global http.proxyAuthMethod ntlm`
+```
+git config --global http.proxy http://[user]@cseproxy.emea.cshare.net:8080
+git config --global credential.helper wincred
+git config --global http.proxyAuthMethod ntlm
+```
 
 ---
 
 ## Try it Yourself
 
-Clone the demo repository:
+Clone the demo repository and create your branch:
 
-`git clone https://CTS-GD@dev.azure.com/CTS-GD/Scratch/_git/gitdemo`
-
-In the demo repository folder:
-
-`git branch checkout -b <branch>`
+```
+git clone https://CTS-GD@dev.azure.com/CTS-GD/Scratch/_git/gitdemo
+git branch checkout -b <branch>
+```
 
 Now make some changes, for example edit `README.md`
 
@@ -208,17 +213,13 @@ Now make some changes, for example edit `README.md`
 
 ## Try it Yourself
 
-Add your changes to the staging area:
+Add your changes and push them to the central repository:
 
-`git add README.md`
-
-Commit your changes:
-
-`git commit -m "<message>"`
-
-Push your branch to the origin:
-
-`git push origin <branch>`
+```
+git add README.md
+git commit -m "<message>"
+git push origin <branch>
+```
 
 ---
 
@@ -226,11 +227,11 @@ Push your branch to the origin:
 
 Change to another branch
 
-`git branch -a`
-
-`git fetch origin <anotherbranch>`
-
-`git checkout <anotherbranch>`
+```
+git branch -a
+git fetch origin <anotherbranch>
+git checkout <anotherbranch>
+```
 
 Explore what has changed
 
