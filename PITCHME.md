@@ -171,3 +171,67 @@ Lots of Git resources and support around:
 - Several Pluralsight courses can teach you the basics, or take a deep dive into how Git works
 - Atlassian Git Cheat Sheet [https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 @ulend
+
+---
+
+# Demo Time
+
+---
+
+## Try it Yourself
+
+First download and install git from:
+
+[https://gitforwindows.org/](https://gitforwindows.org/)
+
+Then from a command line or Powershell run the following exactly - *do not substitute [user] with your username*:
+
+`git config --global http.proxy http://[user]@cseproxy.emea.cshare.net:8080`
+`git config --global credential.helper wincred`
+`git config --global http.proxyAuthMethod ntlm`
+
+---
+
+## Try it Yourself
+
+Clone the demo repository:
+
+`git clone https://CTS-GD@dev.azure.com/CTS-GD/Scratch/_git/gitdemo`
+
+In the demo repository folder:
+
+`git branch checkout -b <branch>`
+
+Now make some changes, for example edit `README.md`
+
+---
+
+## Try it Yourself
+
+Add your changes to the staging area:
+
+`git add README.md`
+
+Commit your changes:
+
+`git commit -m "<message>"`
+
+Push your branch to the origin:
+
+`git push origin <branch>`
+
+---
+
+## Try it Yourself
+
+Change to another branch
+
+`git branch -a`
+
+`git fetch origin <anotherbranch>`
+
+`git checkout <anotherbranch>`
+
+Explore what has changed
+
+---
