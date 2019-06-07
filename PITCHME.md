@@ -206,7 +206,8 @@ Clone the demo repository and create your branch:
 ```sh
 > git clone 
     https://CTS-GD@dev.azure.com/CTS-GD/Scratch/_git/gitdemo
-> git branch checkout -b <branch>
+> cd gitdemo
+> git checkout -b <branch>
 ```
 
 Now make some changes, for example edit `README.md`
