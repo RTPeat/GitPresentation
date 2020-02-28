@@ -154,9 +154,10 @@
 
 ## Git Tools
 
-You don't have to use the tools in Visual Studio - some complicated operations may require an external tool or command line
+You don't have to use the tools in Visual Studio 
 
 @ul
+- Some complicated operations may require an external tool or command line
 - Free clients like Atlassian SourceTree, Tortoise Git, Git for Windows
 - Paid for clients like Git Kraken, Smart Git or Tower
 @ulend
@@ -185,9 +186,10 @@ Git is built in to Visual Studio but you can download and install the full git i
 
 [https://gitforwindows.org/](https://gitforwindows.org/)
 
-In Visual Studio Installer you can also find **Git for Windows** under Individual Components.
-
-Visual Studio Code also had git support built in.
+@ul
+- In Visual Studio Installer you can also find **Git for Windows** under Individual Components.
+- Visual Studio Code also had git support built in.
+@ulend
 
 ---
 
