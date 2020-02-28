@@ -1,4 +1,4 @@
-# Introduction to Git
+# Introduction to Git with Visual Studio
 
 ---
 
@@ -6,9 +6,9 @@
 
 @ul
 - Development is being migrated away from internally hosted Team Foundation Servers to Azure DevOps
-- On TFS we are using TFS Version Control, Azure DevOps uses Git for version control
+- On TFS we are using TFS Version Control, on Azure DevOps we're using Git for version control
 - Git and TFSVC are different which can cause confusion
-- Damien has offered to buy a Dishoom breakfast for anyone who attends
+- We're using Visual Studio internal Git support so have updated the introduction
 @ulend
 
 ---
@@ -79,8 +79,8 @@
 ## Top Tip
 
 @ul
-- When learning to use Git, try to *not* think about it in the same way as you do for existing version control systems 
-- Git stores and thinks about information differently from these systems and it can get confusing
+- When learning to use Git, try to *not* think about it in the same way as you do for the TFS Version Control 
+- Git stores and thinks about information differently from TFSVC and it can get confusing
 @ulend
 
 ---
@@ -92,6 +92,7 @@
 - Git thinks of its data more like a set of snapshots of a miniature file system, called a commit 
 - It uses links for unchanged files saving space
 - It only stores the changes not complete files
+- The git miniature file system will not have all the files in the real file system 
 @ulend
 
 ---
@@ -102,6 +103,7 @@
 - Git is designed to operate in a distributed way so has the entire history of a project locally
 - If you need to go back to an old version of the file, Git can regenerate it locally 
 - If a server repository fails or is corrupted the server can be built from local repositories
+- When you want to share work with the team you push it up to Azure DevOps
 @ulend
 
 ---
@@ -152,10 +154,9 @@
 
 ## Git Tools
 
-You don't have to use the command line (although some of the power is only available that way)
+You don't have to use the tools in Visual Studio - some complicated operations may require an external tool or command line
 
 @ul
-- Modern Visual Studio has Git support built in
 - Free clients like Atlassian SourceTree, Tortoise Git, Git for Windows
 - Paid for clients like Git Kraken, Smart Git or Tower
 @ulend
@@ -180,15 +181,19 @@ Lots of Git resources and support around:
 
 ## Try it Yourself
 
-First download and install git from:
+Git is built in to Visual Studio but you can download and install the full git install from:
 
 [https://gitforwindows.org/](https://gitforwindows.org/)
+
+In Visual Studio Installer you can also find **Git for Windows** under Individual Components.
+
+Visual Studio Code also had git support built in.
 
 ---
 
 ## Try it Yourself
 
-Then from a command line or Powershell run the following exactly - *do not substitute [user] with your username*:
+From a command line or Powershell run the following exactly - *do not substitute [user] with your username*:
 
 ```sh
 > git config --global 
@@ -203,12 +208,9 @@ Then from a command line or Powershell run the following exactly - *do not subst
 
 Clone the demo repository and create your branch:
 
-```sh
-> git clone 
-    https://CTS-GD@dev.azure.com/CTS-GD/Scratch/_git/gitdemo
-> cd gitdemo
-> git checkout -b <branch>
-```
+- In VS2019 use the **Clone or check out code** option from the welcome page
+- Our demo repo is at `https://CTS-GD@dev.azure.com/CTS-GD/Scratch/_git/gitdemo` or browse to find it
+- In VS2019 create yourself a branch by going to **Team Explorer**, then **Branches** and **New Branch**
 
 Now make some changes, for example edit `README.md`
 
@@ -218,24 +220,19 @@ Now make some changes, for example edit `README.md`
 
 Add your changes and push them to the central repository:
 
-```sh
-> git add README.md
-> git commit -m "<message>"
-> git push origin <branch>
-```
+- In VS2019 go to the **Team Explorer**, then **Changes**
+- Describe your changes and then commit the changes to your local repo
+- Once committed, click on **Sync** to share your changes with the server
+- Click **Push** to push your new branch
 
 ---
 
 ## Try it Yourself
 
-Change to another branch
+Create a pull request for your branch
 
-```sh
-> git branch -a
-> git fetch origin <anotherbranch>
-> git checkout <anotherbranch>
-```
-
-Explore what has changed
+- In a browser go to `https://dev.azure.com/CTS-GD/Scratch/_git/gitdemo/pullrequests`
+- Azure DevOps should highlight your new branch - press **Create a pull request**
+- Fill in the pull request form and add some reviewers
 
 ---
