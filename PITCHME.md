@@ -8,7 +8,7 @@
 - Development is being migrated away from internally hosted Team Foundation Servers to Azure DevOps
 - On TFS we are using TFS Version Control, on Azure DevOps we're using Git for version control
 - Git and TFSVC are different which can cause confusion
-- We're using Visual Studio internal Git support so have updated the introduction
+- We're using Visual Studio internal Git support so have updated this introduction
 @ulend
 
 ---
