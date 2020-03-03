@@ -17,7 +17,6 @@
 
 @ul
 - A quick overview of Git
-- A demo of Git
 - A chance to experiment with Git in the Scratch environment
 @ulend
 
@@ -79,8 +78,8 @@
 ## Top Tip
 
 @ul
-- When learning to use Git, try to *not* think about it in the same way as you do for the TFS Version Control 
-- Git stores and thinks about information differently from TFSVC and it can get confusing
+- When learning to use Git, try to *not* think about it in the same way as you do for TFS Version Control 
+- Git stores and handles information differently from TFSVC and it can get confusing
 @ulend
 
 ---
@@ -89,10 +88,10 @@
 
 @ul
 - Many other version control systems store information as details of changes to files
-- Git thinks of its data more like a set of snapshots of a miniature file system, called a commit 
+- Git thinks of its data more like a set of snapshots of a miniature file system, called commits 
 - It uses links for unchanged files saving space
 - It only stores the changes not complete files
-- The git miniature file system will not have all the files in the real file system 
+- The git miniature file system can ignore files so you can keep binaries and temporary VS files out of the repo 
 @ulend
 
 ---
@@ -176,10 +175,6 @@ Lots of Git resources and support around:
 
 ---
 
-# Demo Time
-
----
-
 ## Try it Yourself
 
 Git is built in to Visual Studio but you can download and install the full git install from:
@@ -236,5 +231,9 @@ Create a pull request for your branch
 - In a browser go to `https://dev.azure.com/CTS-GD/Scratch/_git/gitdemo/pullrequests`
 - Azure DevOps should highlight your new branch - press **Create a pull request**
 - Fill in the pull request form and add some reviewers
+
+---
+
+## Any Questions?
 
 ---
